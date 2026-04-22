@@ -6,7 +6,7 @@
 - El sistema transforma registros de sistema "sucios" en reportes estructurados en cuestión de segundos, reduciendo drásticamente el tiempo de reparación (MTTR).
 
 ## 🤖 Los 4 Agentes (Pipeline de Inteligencia)
-- ]Siguiendo el flujo de trabajo definido en el manual de **Respuesta a Incidentes**:
+- Siguiendo el flujo de trabajo definido en el manual de **Respuesta a Incidentes**:
 
 1.  **Especialista en Parseo de Logs**: Limpia los datos crudos, descarta mensajes informativos (INFO/DEBUG) y extrae la línea técnica del fallo crítico.
 2.  **Analista de Causa Raíz (SRE)**: Traduce el código de error a lenguaje humano y explica por qué colapsó el sistema.
