@@ -3,7 +3,7 @@ from google import genai
 import os
 
 # 1. CONFIGURACIÓN
-client = genai.Client(api_key="AIzaSyALP6MrnmuZsw9TUtR8zhIPgrvivG2H-J4")
+client = genai.Client(api_key="Your_Key")
 MODEL_ID = "gemini-3-flash-preview"
 
 # Función genérica para manejar los reintentos por saturación (Error 503)
