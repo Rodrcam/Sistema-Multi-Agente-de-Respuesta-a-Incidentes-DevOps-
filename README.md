@@ -1,17 +1,17 @@
 # 🚀 Sistema Multi-Agente de Respuesta a Incidentes (SRE-AI)
 
-[cite_start]Este proyecto es un sistema **Multi-Agente** diseñado para automatizar la fase de investigación y diagnóstico de errores en entornos DevOps[cite: 2]. [cite_start]Utilizando la potencia de **Gemini 3 Flash**, el sistema ingiere logs técnicos complejos, aísla el fallo crítico, traduce el problema a lenguaje humano y genera un ticket de soporte con soluciones técnicas inmediatas[cite: 3, 5].
+- Este proyecto es un sistema **Multi-Agente** diseñado para automatizar la fase de investigación y diagnóstico de errores en entornos DevOps. Utilizando la potencia de **Gemini 3 Flash**, el sistema ingiere logs técnicos complejos, aísla el fallo crítico, traduce el problema a lenguaje humano y genera un ticket de soporte con soluciones técnicas inmediatas.
 
 ## 📋 Descripción del Sistema
-[cite_start]El sistema transforma registros de sistema "sucios" en reportes estructurados en cuestión de segundos, reduciendo drásticamente el tiempo de reparación (MTTR)[cite: 4, 6].
+- El sistema transforma registros de sistema "sucios" en reportes estructurados en cuestión de segundos, reduciendo drásticamente el tiempo de reparación (MTTR).
 
 ## 🤖 Los 4 Agentes (Pipeline de Inteligencia)
-[cite_start]Siguiendo el flujo de trabajo definido en el manual de **Respuesta a Incidentes**[cite: 7, 12]:
+- ]Siguiendo el flujo de trabajo definido en el manual de **Respuesta a Incidentes**:
 
-1.  [cite_start]**Especialista en Parseo de Logs**: Limpia los datos crudos, descarta mensajes informativos (INFO/DEBUG) y extrae la línea técnica del fallo crítico[cite: 8, 9].
-2.  [cite_start]**Analista de Causa Raíz (SRE)**: Traduce el código de error a lenguaje humano y explica por qué colapsó el sistema[cite: 10].
-3.  [cite_start]**Ingeniero de Resoluciones**: Propone las acciones correctivas y los comandos de consola exactos (Linux, Docker, Kubernetes) para restaurar el servicio[cite: 11].
-4.  [cite_start]**Coordinador de Soporte IT**: Recopila el trabajo de los agentes anteriores y redacta un ticket de incidencia profesional y estructurado[cite: 12].
+1.  **Especialista en Parseo de Logs**: Limpia los datos crudos, descarta mensajes informativos (INFO/DEBUG) y extrae la línea técnica del fallo crítico.
+2.  **Analista de Causa Raíz (SRE)**: Traduce el código de error a lenguaje humano y explica por qué colapsó el sistema.
+3.  **Ingeniero de Resoluciones**: Propone las acciones correctivas y los comandos de consola exactos (Linux, Docker, Kubernetes) para restaurar el servicio.
+4.  **Coordinador de Soporte IT**: Recopila el trabajo de los agentes anteriores y redacta un ticket de incidencia profesional y estructurado.
 
 ## 🛠️ Tecnologías Utilizadas
 * **Lenguaje**: Python 3.13
